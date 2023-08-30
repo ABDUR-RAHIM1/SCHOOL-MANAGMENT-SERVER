@@ -10,9 +10,11 @@ get - admin : https://my-school-1es5.onrender.com/api/admin
 delete admin : https://my-school-1es5.onrender.com/api/admin/${id}
  
 logo :  https://my-school-1es5.onrender.com/api/settings/logo
+get logo : https://my-school-1es5.onrender.com/api/settings/logo
 delete logo : https://my-school-1es5.onrender.com/api/settings/logo/${id}
 
 hero : https://my-school-1es5.onrender.com/api/settings/hero
+get hero : https://my-school-1es5.onrender.com/api/settings/hero
 delete -hero : https://my-school-1es5.onrender.com/api/settings/hero/${heroText._id}
 
 delete testimonial : https://my-school-1es5.onrender.com/api/settings/testimonial/${id}`
@@ -45,10 +47,30 @@ user / student create : https://my-school-1es5.onrender.com/api/student/profile
 reset pass- student : https://my-school-1es5.onrender.com/api/student/profile/reset
 
 
-setn message : https://my-school-1es5.onrender.com/api/chat/
+send message : https://my-school-1es5.onrender.com/api/chat/
 get messaage : https://my-school-1es5.onrender.com/api/chat/
 delete message : https://my-school-1es5.onrender.com/api/chat/${id}
 
 get complanines : https://my-school-1es5.onrender.com/api/complain/
 delete complaine : https://my-school-1es5.onrender.com/api/complain/${id}
 
+submite contact : https://my-school-1es5.onrender.com/api/contact
+get contact message : https://my-school-1es5.onrender.com/api/contact
+delete contact message : https://my-school-1es5.onrender.com/api/contact/${id}
+
+
+add review : https://my-school-1es5.onrender.com/api/settings/testimonial
+get review  : https://my-school-1es5.onrender.com/api/settings/testimonial
+
+get student-profile  : https://my-school-1es5.onrender.com/api/student/profile
+delete student-profile : https://my-school-1es5.onrender.com/api/student/profile/${id}
+
+get student result : "https://my-school-1es5.onrender.com/api/result/student?search="+sort
+get top students : https://my-school-1es5.onrender.com/api/student?search=" + search)
+
+add notice : https://my-school-1es5.onrender.com/api/notice
+edit notice  : https://my-school-1es5.onrender.com/api/notice/${noticeId}
+
+
+add student : https://my-school-1es5.onrender.com/api/student
+edit student : https://my-school-1es5.onrender.com/api/student/${editStudentId}
