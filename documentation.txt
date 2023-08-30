@@ -1,2 +1,54 @@
 admin pass : abdur@gmail.com
   pass : 112233 or 121212
+
+api link : https://my-school-1es5.onrender.com/
+
+get complaine : https://my-school-1es5.onrender.com/api/complain
+add due : https://my-school-1es5.onrender.com/api/due
+
+get - admin : https://my-school-1es5.onrender.com/api/admin
+delete admin : https://my-school-1es5.onrender.com/api/admin/${id}
+ 
+logo :  https://my-school-1es5.onrender.com/api/settings/logo
+delete logo : https://my-school-1es5.onrender.com/api/settings/logo/${id}
+
+hero : https://my-school-1es5.onrender.com/api/settings/hero
+delete -hero : https://my-school-1es5.onrender.com/api/settings/hero/${heroText._id}
+
+delete testimonial : https://my-school-1es5.onrender.com/api/settings/testimonial/${id}`
+
+get due : https://my-school-1es5.onrender.com/api/due?search=" + search
+delete due : https://my-school-1es5.onrender.com/api/due/${id}
+
+ get notice : https://my-school-1es5.onrender.com/api/notice
+noticew delete  : https://my-school-1es5.onrender.com/api/notice/${id}
+
+
+get students : https://my-school-1es5.onrender.com/api/student?search="+search)
+delete student  : https://my-school-1es5.onrender.com/api/student/${id}
+
+
+add result : https://my-school-1es5.onrender.com/api/result
+edit  result : https://my-school-1es5.onrender.com/api/result/${resultId}
+
+get results : https://my-school-1es5.onrender.com/api/result?search=" + sort)
+delete result : https://my-school-1es5.onrender.com/api/result/${id}
+
+
+admin login : https://my-school-1es5.onrender.com/api/admin/login
+\cretae admin : https://my-school-1es5.onrender.com/api/admin
+admin password reset :  https://my-school-1es5.onrender.com/api/admin/reset-password
+
+
+user login : https://my-school-1es5.onrender.com/api/student/profile/login
+user / student create : https://my-school-1es5.onrender.com/api/student/profile
+reset pass- student : https://my-school-1es5.onrender.com/api/student/profile/reset
+
+
+setn message : https://my-school-1es5.onrender.com/api/chat/
+get messaage : https://my-school-1es5.onrender.com/api/chat/
+delete message : https://my-school-1es5.onrender.com/api/chat/${id}
+
+get complanines : https://my-school-1es5.onrender.com/api/complain/
+delete complaine : https://my-school-1es5.onrender.com/api/complain/${id}
+
